@@ -1,0 +1,17 @@
+<appendix role="dsssl" id="appendices-symlinks">
+<?dbhtml filename="symlinks.html" dir="appendices"?>
+<title>在LFS/BLFS中用到的rc?.d链接列表</title>
+
+<para>这一部分列出了lfs-bootscripts(当前版本为<userinput>1.9</userinput>)和BLFS安装说明书使用的所有符号链接。这样做有两个原因：第一，为了使你一眼就能看出每个软件包使用了哪些数字作为链接名，并且第二，为了<emphasis>我们</emphasis>能了解已经使用了哪些数字！ 没有这些，我们的生活会变得更困难(同时最后也会发生矛盾)。</para>
+
+<para>不用说，这并<emphasis>不是</emphasis>唯一的符号链接配置方案(或者某些人认为是最好的)，但它也能正常工作。在LFS的传统里，你应该能够找到对<emphasis>你</emphasis>适合的并且使用它。我们的所建议的只是一个模板而已。</para>
+
+&appendices-symlinks-rc0;
+&appendices-symlinks-rc1;
+&appendices-symlinks-rc2;
+&appendices-symlinks-rc3;
+&appendices-symlinks-rc4;
+&appendices-symlinks-rc5;
+&appendices-symlinks-rc6;
+
+</appendix>

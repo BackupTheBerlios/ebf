@@ -1,0 +1,17 @@
+<sect2>
+<title>安装 <application>Mutt</application></title>
+
+<para><application>Mutt</application>需要一个名字为'mail'的用户组，如果它不存在，用下面的命令添加:</para>
+<screen><userinput><command>groupadd mail</command></userinput></screen>
+
+<para>如果你没有安装 <acronym>MTA</acronym>, 如 <xref linkend="postfix"/> 或 <xref linkend="sendmail"/>, 就需要改变 <filename>/var/mail</filename> 目录的所有组：</para>
+<screen><userinput><command>chgrp mail /var/mail</command></userinput></screen>
+
+<para>安装<application>Mutt</application> 可以使用下面命令:</para>
+
+<screen><userinput><command>./configure --prefix=/usr --sysconfdir=/etc &amp;&amp;
+make &amp;&amp;
+make install</command></userinput></screen>
+
+</sect2>
+

@@ -1,0 +1,20 @@
+<sect2>
+<title>简单介绍<application>Nmap</application></title>
+
+<para><application>Nmap</application> 是用来进行网络检查和安全监听的工具。它支持 ping 扫描、端口扫描和<acronym>TCP</acronym>/<acronym>IP</acronym>鉴别.</para>
+
+<sect3><title>软件包信息</title>
+<itemizedlist spacing='compact'>
+<listitem><para>下载 (HTTP): <ulink url="&nmap-download-http;"/></para></listitem>
+<listitem><para>下载 (FTP): <ulink url="&nmap-download-ftp;"/></para></listitem>
+<listitem><para>下载软件包大小: &nmap-size;</para></listitem>
+<listitem><para>预计磁盘使用空间: &nmap-buildsize;</para></listitem>
+<listitem><para>预计编译时间: &nmap-time;</para></listitem></itemizedlist>
+</sect3>
+
+<sect3><title><application>Nmap</application> 依赖关系</title>
+<sect4><title>可选</title>
+<para><xref linkend="GTK"/> (为了编译前端程序)</para></sect4>
+</sect3>
+
+</sect2>

@@ -1,0 +1,20 @@
+<sect2>
+<title>简单介绍<application>Procmail</application></title>
+
+<para><application>Procmail</application> 包括一个自动的邮件处理器，可过滤和分类所收到的邮件。</para>
+
+<sect3><title>软件包信息</title>
+<itemizedlist spacing='compact'>
+<listitem><para>下载 (HTTP): <ulink
+url="&procmail-download-http;"/></para></listitem>
+<listitem><para>下载 (FTP): <ulink
+url="&procmail-download-ftp;"/></para></listitem>
+<listitem><para>下载软件包大小: &procmail-size;</para></listitem>
+<listitem><para>预计磁盘使用空间:
+&procmail-buildsize;</para></listitem>
+<listitem><para>预计编译时间:
+&procmail-time;</para></listitem></itemizedlist>
+</sect3>
+
+
+</sect2>

@@ -1,0 +1,18 @@
+<sect2>
+<title>内容</title>
+
+<para><application>Wget</application> 包括 <command>wget</command>.</para>
+
+</sect2>
+
+<sect2><title>说明</title>
+
+<sect3><title>wget</title>
+<para><command>wget</command> retrieves files from the Web using the
+<acronym>HTTP</acronym>, HTTPS and
+<acronym>FTP</acronym> protocols.  It is designed to be non-interactive, for 
+background 或 unattended operations. </para></sect3>
+
+
+</sect2>
+

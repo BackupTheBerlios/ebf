@@ -1,0 +1,10 @@
+<sect2>
+<title>ÃüÁî½âÊÍ</title>
+
+<para><screen><command>cd libncftp &amp;&amp; 
+make shared &amp;&amp; 
+make soinstall</command></screen>
+These commands make ºÍ install the dynamic library libncftp which is then used to link against when compiling the main program.</para>
+
+</sect2>
+

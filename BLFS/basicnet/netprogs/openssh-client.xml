@@ -1,0 +1,7 @@
+<sect1 id="basicnet-netprogs-openssh">
+<?dbhtml filename="openssh.html" dir="basicnet"?>
+<title>OpenSSH-&openssh-version; client</title>
+
+<para>ssh 客户端是telnet的安全替代。如果你想安装，可以参照第23章 - <xref linkend="openssh"/>。注意，如果你只想要用客户端，那么你<emphasis>不需要</emphasis> 运行服务器端和启动脚本以及链接。为了系统安全，应该只在你确实需要的时候运行服务器端。（如果你搞不清楚自己是不是需要，那就是不需要，赫赫）</para>
+
+</sect1>

@@ -1,0 +1,20 @@
+<sect2>
+<title>简单介绍<application>Berkeley DB</application></title>
+
+<para><application>Berkeley DB</application> 包括实用工具和程序，被其他软件用来处理数据库。</para>
+
+<sect3><title>软件包信息</title>
+<itemizedlist spacing='compact'>
+<listitem><para>下载 (HTTP): <ulink
+url="&db-download-http;"/></para></listitem>
+<listitem><para>下载 (FTP): <ulink
+url="&db-download-ftp;"/></para></listitem>
+<listitem><para>下载软件包大小: &db-size;</para></listitem>
+<listitem><para>预计磁盘使用空间:
+&db-buildsize;</para></listitem>
+<listitem><para>预计编译时间:
+&db-time;</para></listitem></itemizedlist>
+</sect3>
+
+
+</sect2>

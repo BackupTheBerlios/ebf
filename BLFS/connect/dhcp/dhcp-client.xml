@@ -1,0 +1,35 @@
+<sect1 id="connect-dhcp-client">
+<?dbhtml filename="dhcpclient.html" dir="connect"?>
+<title>DHCP-&dhcp-version;</title>
+
+<para><application><acronym>DHCP</acronym></application> 软件包包含<acronym>DHCP</acronym>的客户端和服务器程序。如果你要安装这个软件包，可以参考 <xref linkend="dhcp"/>。注意，如果你只想使用客户端程序，就 <emphasis>不需要</emphasis> 运行服务器，并且不需要那些支持服务器守护进程的启动脚本和符号链接。只有在要对某个网络提供服务器时，才需要运行 <acronym>DHCP</acronym> 服务器，如果不是这种情况，千万不要运行服务器！在安装了软件包后，回到这里，设置客户端(<command>dhclient</command>)支持就行了。</para>
+
+<para>配置 <command>dhclient</command>, 你需要建立两个文件 <filename>/etc/sysconfig/network-devices/ifconfig.eth0</filename> 和 <filename>/etc/dhclient.conf</filename>.</para>
+
+<para>首先，用如下命令建立 <filename>ifconfig.eth0</filename>，它就覆盖以前存在的文件:</para>
+
+<screen><userinput><command>cd /etc/sysconfig/network-devices &amp;&amp;
+cat &gt; /etc/sysconfig/network-devices/ifconfig.eth0 &lt;&lt; "EOF"</command>
+ONBOOT=yes
+DHCP_PROG=/sbin/dhclient
+DHCP_START=&lt;appropriate start parameters&gt;
+DHCP_STOP=-r
+<command>EOF</command></userinput></screen>
+
+<para>要得到更多关于 <envar>DHCP_START</envar> 和 <envar>DHCP_STOP</envar> 参数的信息，参见 <command>dhclient</command> 的 man 文档。</para>
+
+<para>接下来，需要建立 <filename>/etc/dhclient.conf</filename> 文件，命令如下：</para>
+
+<screen><userinput><command>cat &gt; /etc/dhclient.conf &lt;&lt; "EOF"</command>
+# dhclient.conf
+
+interface "eth0"{
+prepend domain-name-servers 127.0.0.1;
+request subnet-mask, broadcast-address, time-offset, routers,
+        domain-name, domain-name-servers, host-name;
+require subnet-mask, domain-name-servers;
+}
+# end dhclient.conf
+<command>EOF</command></userinput></screen>
+
+</sect1>

@@ -1,0 +1,15 @@
+<sect2>
+<title>配置 <application><acronym>CVS</acronym></application></title>
+
+<sect3><title>配置文件</title>
+<para><filename>~/.cvsrc</filename>, <filename>~/.cvswrappers</filename></para>
+</sect3>
+
+<sect3><title>配置信息</title>
+
+<para><filename>~/.cvsrc</filename> 是 <application><acronym>CVS</acronym></application> 的主配置文件。使用者在这个文件里可以指定不同 <command>cvs</command> 命令的默认值，比如让所有的<command>cvs diff</command>命令都带上参数 <userinput>-u</userinput>, 就在<filename>.cvsrc</filename>文件里加上<userinput>diff -u</userinput>.</para>
+
+<para><filename>~/.cvswrappers</filename> 指定除了<filename>CVSROOT/cvswrappers</filename>文件里指定的以外，使用者还能用哪些包装脚本。</para></sect3>
+
+</sect2>
+

@@ -1,0 +1,13 @@
+<sect2>
+<title>安装 <application><acronym>NCPFS</acronym></application></title>
+
+<para>安装<application><acronym>NCPFS</acronym></application> 可以使用下面命令:</para>
+
+<screen><userinput>./configure --prefix=/usr --includedir=/usr/include \
+    --mandir=/usr/share/man --datadir=/usr/share &amp;&amp;
+make &amp;&amp;
+make install &amp;&amp;
+make install-dev</userinput></screen>
+
+</sect2>
+

@@ -1,0 +1,14 @@
+<sect2>
+<title>安装 <application>portmap</application></title>
+
+<para>用下列命令安装<application>portmap</application>:</para>
+
+<screen><userinput><command>patch -Np1 -i ../portmap-5beta-compilation-fixes-2.patch &amp;&amp;
+patch -Np1 -i ../portmap-5beta-glibc-errno-fix.patch &amp;&amp;
+make &amp;&amp;
+make install</command></userinput></screen>
+
+<note><para>上面的安装指导，把 <filename>portmap</filename>的可执行程序放到 <filename class="directory">/sbin</filename>目录中。你也可以把它放到 <filename class="directory">/usr/sbin</filename>. 如果你改变了它的位置，别忘了修改启动脚本。</para></note>
+
+</sect2>
+

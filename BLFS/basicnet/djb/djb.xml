@@ -1,0 +1,10 @@
+<chapter id="basicnet-djb">
+<?dbhtml filename="djb.html" dir="basicnet"?>
+<title>D.J. Bernstein 的实用工具</title>
+
+<para>本章的程序是安装 qmail 服务器所需要的。本章程序的安装方法与书中其他软件包大相径庭，因为我们想尽量遵守 <acronym>FHS</acronym>。</para>
+
+&daemontools;
+&ucspi-tcp;
+
+</chapter>

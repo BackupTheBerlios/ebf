@@ -1,0 +1,12 @@
+<sect2>
+<title>安装 <application>Nail</application></title>
+
+<para>安装<application>Nail</application> 可以使用下面命令：
+(注意：如果你想把nail连接到<application>openssl </application>库，就在configure命令后面加上<userinput>--with-openssl</userinput>参数。)</para>
+
+<screen><userinput><command>./configure --prefix=/usr &amp;&amp;
+make &amp;&amp;
+make install &amp;&amp;
+ln -sf nail /usr/bin/mail</command></userinput></screen>
+
+</sect2>

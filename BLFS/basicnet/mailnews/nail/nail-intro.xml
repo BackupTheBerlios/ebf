@@ -1,0 +1,24 @@
+<sect2>
+<title>简单介绍<application>Nail</application></title>
+
+<para><application>Nail</application> 包括一个命令行下的邮件客户代理，与商业 Unix 版本中的<command>mail</command> 命令兼容。<command>mail</command>命令对编写脚本很有用处。</para>
+
+<sect3><title>软件包信息</title>
+<itemizedlist spacing='compact'>
+<listitem><para>下载 (HTTP): <ulink
+url="&nail-download-http;"/></para></listitem>
+<listitem><para>下载 (FTP): <ulink
+url="&nail-download-ftp;"/></para></listitem>
+<listitem><para>下载软件包大小: &nail-size;</para></listitem>
+<listitem><para>预计磁盘使用空间:
+&nail-buildsize;</para></listitem>
+<listitem><para>预计编译时间:
+&nail-time;</para></listitem></itemizedlist>
+</sect3>
+
+<sect3><title><application>Nail</application> 依赖关系</title>
+<sect4><title>可选</title>
+<para><xref linkend="openssl"/></para></sect4>
+</sect3>
+
+</sect2>

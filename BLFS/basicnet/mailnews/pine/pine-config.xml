@@ -1,0 +1,13 @@
+<sect2>
+<title>配置 <application>Pine</application></title>
+
+<sect3><title>配置文件</title>
+<para><filename>~/.pinerc</filename></para>
+</sect3>
+
+<sect3><title>配置信息</title>
+
+<para><command>pine</command> 不需要全局配置就能用。用户可以用内置的编辑菜单来设置<application>Pine</application>选项，并存在 <filename>~/.pinerc</filename> 文件中。</para>
+</sect3>
+
+</sect2>

@@ -1,0 +1,20 @@
+<sect2>
+<title>简单介绍<application>Traceroute</application></title>
+
+<para><application>Traceroute</application> 包括 traceroute 程序，它用来显示网络路由到达的主机。这是网络标准的除错工具。如果你发现你连接不上一个主机，tracerout可以帮助你精确的发现错误。</para>
+
+<sect3><title>软件包信息</title>
+<itemizedlist spacing='compact'>
+<listitem><para>下载 (HTTP): <ulink
+url="&traceroute-download-http;"/></para></listitem>
+<listitem><para>下载 (FTP): <ulink
+url="&traceroute-download-ftp;"/></para></listitem>
+<listitem><para>下载软件包大小: &traceroute-size;</para></listitem>
+<listitem><para>预计磁盘使用空间:
+&traceroute-buildsize;</para></listitem>
+<listitem><para>预计编译时间:
+&traceroute-time;</para></listitem></itemizedlist>
+</sect3>
+
+
+</sect2>

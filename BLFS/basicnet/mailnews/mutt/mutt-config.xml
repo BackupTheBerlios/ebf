@@ -1,0 +1,20 @@
+<sect2>
+<title>配置 <application>Mutt</application></title>
+
+<sect3><title>配置文件</title>
+<para><filename>/etc/Muttrc</filename>,
+<filename>~/.muttrc</filename>,
+<filename>/etc/mime.types</filename>, <filename>~/.mime.types</filename></para>
+</sect3>
+
+<sect3><title>配置信息</title>
+
+<para>在运行<application>Mutt</application>前，没有必要改变这些文件的设置，如果你想改，那么 <filename>muttrc</filename> 的man手册是很好的参考资料。</para>
+
+<para>为了使用 <application>GnuPG</application>, 运行下面的命令:</para>
+<screen><userinput><command>cat /usr/share/doc/mutt/samples/gpg.rc &gt;&gt;
+~/.muttrc</command></userinput></screen>
+</sect3>
+
+</sect2>
+

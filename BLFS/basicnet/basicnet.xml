@@ -1,0 +1,12 @@
+<part id="basicnet" xreflabel="基本的网络系统">
+<?dbhtml filename="basicnet.html" dir="basicnet"?>
+<title>基本的网络系统</title>
+
+&basicnet-netlibs;
+&basicnet-textweb;
+&basicnet-netprogs;
+&basicnet-netutils;
+&basicnet-mailnews;
+&basicnet-djb;
+
+</part>

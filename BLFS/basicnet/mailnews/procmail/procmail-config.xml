@@ -1,0 +1,16 @@
+<sect2>
+<title>配置 <application>Procmail</application></title>
+
+<sect3><title>配置文件</title>
+<para><filename>/etc/procmailrc</filename>,
+<filename>~/.procmailrc</filename></para>
+</sect3>
+
+<sect3><title>配置信息</title>
+
+<para>为了能运行，必须创建<filename>~/.procmailrc</filename>并存入一些参数。procmailex man
+手册讲解了如何创建一个配置文件。</para>
+</sect3>
+
+</sect2>
+

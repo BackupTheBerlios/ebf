@@ -1,0 +1,17 @@
+<sect2>
+<title>内容</title>
+
+<para><application>dhcpcd</application> 包括 <command>dhcpcd</command>.</para>
+
+</sect2>
+
+<sect2><title>说明</title>
+
+<sect3><title>dhcpcd</title>
+<para><command>dhcpcd</command> is an implementation of the <acronym>DHCP
+</acronym> client specified in <acronym>RFC</acronym>2131 and
+<acronym>RFC</acronym>1541 (depending on which options are specified).</para>
+</sect3>
+
+</sect2>
+

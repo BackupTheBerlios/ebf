@@ -1,0 +1,9 @@
+<sect2>
+<title>命令解释</title>
+
+<para>之所以要运行再次 ./configure &amp;&amp; make &amp;&amp; make install ，原因在于zlib的configure很好地分开了，这使我们不能同时编译安装共享库和静态库。因此，我们必须把分别安装。</para>
+
+<para>我们执行 <userinput>cp zlib.3 /usr/share/man/man3</userinput> 因为zlib不能正确安装它的man文档。</para>
+
+</sect2>
+

@@ -1,0 +1,24 @@
+<sect2>
+<title>内容</title>
+
+<para><application>WvStreams</application> 包括 <filename class="libraryfile">libwvcrypto</filename>,
+<filename class="libraryfile">libwvstreams</filename> 和 <filename class="libraryfile">libwvutils</filename> 库文件.</para>
+
+</sect2>
+
+<sect2><title>说明</title>
+
+<sect3><title>libwvcrypto</title>
+<para><filename class="libraryfile">libwvcrypto</filename> defines 
+streams with built-in cryptography.</para></sect3>
+
+<sect3><title>libwvstreams</title>
+<para><filename class="libraryfile">libwvstreams</filename> defines the 
+basic properties of a stream.</para></sect3>
+
+<sect3><title>libwvutils</title>
+<para><filename class="libraryfile">libwvutils</filename> contains 
+fundamental support utilities.</para></sect3>
+
+</sect2>
+

@@ -1,0 +1,18 @@
+<sect2>
+<title>简单介绍<application>Whois</application></title>
+
+<para><application>Whois</application> 是一个用来查询从属于特定域whois目录服务的客户端程序。<!--Note that you already have this program from your LFS
+installation, it can handle COM, NET 和 EDU queries. You will need
+this application for any other domains. --></para>
+
+<sect3><title>软件包信息</title>
+<itemizedlist spacing='compact'>
+<listitem><para>下载 (HTTP): <ulink url="&whois-download-http;"/></para></listitem>
+<listitem><para>下载 (FTP): <ulink url="&whois-download-ftp;"/></para></listitem>
+<listitem><para>下载软件包大小: &whois-size;</para></listitem>
+<listitem><para>预计磁盘使用空间: &whois-buildsize;</para></listitem>
+<listitem><para>预计编译时间: &whois-time;</para></listitem></itemizedlist>
+</sect3>
+
+
+</sect2>

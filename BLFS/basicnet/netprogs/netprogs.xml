@@ -1,0 +1,18 @@
+<chapter id="basicnet-netprogs">
+<?dbhtml filename="netprogs.html" dir="basicnet"?>
+<title>基本网络程序</title>
+
+<para>下面的程序，多数都是用来访问各种类型服务器的客户端。Tcpwrappers 和 portmap 是在机器上运行守护进程时所需要的辅助程序。</para>
+
+&ncftp;
+&basicnet-netprogs-opensshclient;
+&basicnet-netprogs-rsyncclient;
+&cvs;
+&wget;
+&tcpwrappers;
+&portmap;
+&inetutils;
+<!-- &nfs-utils; -->
+&ncpfs;
+&ntp;
+</chapter>

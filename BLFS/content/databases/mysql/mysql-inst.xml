@@ -1,0 +1,24 @@
+<sect2>
+<title>安装 <application>My<acronym>SQL</acronym></application></title>
+
+<para>出于安全考虑，强烈建议你用非特权用户和用户组来运行该服务：</para>
+
+<screen><userinput><command>groupadd mysql &amp;&amp;
+useradd -c mysql -d /dev/null -g mysql -s /bin/false mysql</command></userinput></screen>
+
+<para>编译和安装 <application>My<acronym>SQL</acronym></application> 可以使用下面的命令:</para>
+
+<screen><userinput><command>cp configure configure.old &amp;&amp;
+sed -e "s%mysql-test/Makefile%%" -e "s% mysql-test%%" configure.old &gt; configure &amp;&amp;
+./configure --prefix=/usr \
+            --sysconfdir=/etc \
+            --libexecdir=/usr/sbin \
+            --localstatedir=/var/lib/mysql \
+            --enable-thread-safe-client \
+            --enable-local-infile \
+            --without-debug \
+            --without-bench &amp;&amp;
+make &amp;&amp;
+make install</command></userinput></screen>
+
+</sect2>

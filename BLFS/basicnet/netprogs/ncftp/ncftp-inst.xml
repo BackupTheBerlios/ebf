@@ -1,0 +1,25 @@
+<sect2>
+<title>安装 <application>Nc<acronym>FTP</acronym></application></title>
+
+<para>有两种方法安装<application>Nc<acronym>FTP</acronym></application>.第一种，也是最佳的方法，就是
+把常用的功能编到共享目录里，然后编译和连接程序，把共享库连接指向它。
+ 第二种方法把所有的功能指向可以执行的二进制static代码。这将使其他的程序无法连接到代码库，使用代码。你来选择适合你的方法。注意第二种方法<emphasis>不创建</emphasis> 整个静态连接执行文件，只有libncftp部分被静态连接。编译和使用共享库是 Clarified Artistic License 所允许的，然而开发使用共享库的程序需要遵守另外一个协议。</para>
+
+<para>用第一种最佳的方法安装<application>Nc<acronym>FTP</acronym></application>，运行下列命令:</para>
+
+<screen><userinput><command>./configure --prefix=/usr &amp;&amp;
+cd libncftp &amp;&amp;
+make shared &amp;&amp;
+make soinstall &amp;&amp;
+cd .. &amp;&amp;
+make &amp;&amp;
+make install</command></userinput></screen>
+
+<para>用第二种方法(把<filename>libncftp</filename>函数静态连接)安装<application>Nc<acronym>FTP</acronym></application>，运行下列命令:</para>
+
+<screen><userinput><command>./configure --prefix=/usr &amp;&amp;
+make &amp;&amp;
+make install</command></userinput></screen>
+
+</sect2>
+

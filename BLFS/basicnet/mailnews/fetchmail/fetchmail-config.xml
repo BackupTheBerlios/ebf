@@ -1,0 +1,26 @@
+<sect2>
+<title>配置 <application>Fetchmail</application></title>
+
+<sect3><title>配置文件</title>
+<para><filename>~/.fetchmailrc</filename></para>
+</sect3>
+
+<sect3><title>配置信息</title>
+
+<screen>set logfile /var/log/fetchmail.log
+set no bouncemail
+set postmaster root
+
+poll SERVERNAME :
+    user "username" pass "password";
+    mda "/usr/bin/procmail -f %F -d %T";</screen>
+
+
+<para>这是一个对大多数人都适用的设置例子。你可以用同样的语法加入任意数量的用户和服务器。</para>
+
+<para><command>man fetchmail</command>:寻找最下面的段落 <emphasis role="strong">CONFIGURATION EXAMPLES</emphasis>它给出一些简单的例子。等你用熟了以后，将会发现有数不清的设置选项。</para>
+
+</sect3>
+
+</sect2>
+

@@ -1,0 +1,16 @@
+<sect2>
+<title>内容</title>
+
+<para><application>libsoup</application> 包括 
+<filename>libsoup</filename> 库文件.</para>
+
+</sect2>
+
+<sect2><title>说明</title>
+
+<sect3><title>libsoup 库文件</title>
+<para><filename>libsoup</filename> 库文件提供异步 <acronym>HTTP</acronym> 连接所需函数。</para></sect3>
+
+
+</sect2>
+

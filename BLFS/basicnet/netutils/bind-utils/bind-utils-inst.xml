@@ -1,0 +1,13 @@
+<sect2>
+<title>安装 <application><acronym>BIND</acronym> Utilities</application></title>
+
+<para>安装<application><acronym>BIND</acronym> Utilities</application> 可以使用下面的命令:</para>
+
+<screen><userinput>./configure --prefix=/usr &amp;&amp;
+make -C lib/dns &amp;&amp;
+make -C lib/isc &amp;&amp;
+make -C bin/dig &amp;&amp;
+make -C bin/dig install</userinput></screen>
+
+</sect2>
+

@@ -1,0 +1,17 @@
+<chapter id="basicnet-mailnews">
+<?dbhtml filename="mailnews.html" dir="basicnet"?>
+<title>邮件/新闻组客户端</title>
+
+<para>邮件客户端帮助我们接收 (Fetchmail), 分类 (Procmail), 阅读和书写 (Nail, Mutt, Pine, Kmail, Balsa, Evolution, Mozilla)电子邮件。</para>
+
+<para>新闻组客户端也是帮助我们接收、分类、阅读和书写的，但这些消息是从 USENET (一个全球化的公告牌系统)收下来的，使用的是 Network News Transfer Protocol(网络新闻传输协议或<acronym>NNTP</acronym>).</para>
+
+&nail;
+&procmail;
+&fetchmail;
+&mutt;
+&pine;
+&slrn;
+&basicnet-mailnews-othermn;
+
+</chapter>

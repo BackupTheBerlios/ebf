@@ -1,0 +1,13 @@
+<sect2>
+<title>安装 <application>Berkeley DB</application></title>
+
+<para>安装<application>Berkeley DB</application> 可以使用下面的命令:</para>
+
+<screen><userinput><command>cd build_unix &amp;&amp;
+../dist/configure --prefix=/usr \
+    --enable-compat185 \
+    --enable-cxx &amp;&amp;
+make &amp;&amp;
+make docdir=/usr/share/doc/db-&db-version; install</command></userinput></screen>
+<note><para>如果你想使<application>Berkeley DB</application>-&db-version;支持 <application>Java</application>，配置时应加入选项 <command>--enable-java</command>。打开<application>Java</application> 支持，才能在以后编译<application>OpenOffice</application>时使用系统里的 <application>Berkeley DB</application>。</para></note>
+</sect2>

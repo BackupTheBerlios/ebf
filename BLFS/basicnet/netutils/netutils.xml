@@ -1,0 +1,12 @@
+<chapter id="basicnet-netutils">
+<?dbhtml filename="netutils.html" dir="basicnet"?>
+<title>基本网络工具</title>
+
+<para>本章包含调查网络状况时非常有用的工具。</para>
+
+&traceroute;
+&nmap;
+&whois;
+&bind-utils;
+
+</chapter>

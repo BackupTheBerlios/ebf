@@ -1,0 +1,21 @@
+<sect2>
+<title>配置 <application>slrn</application></title>
+
+<sect3><title>配置文件</title>
+<para><filename>$HOME/.jnewsrc</filename>,
+<filename>$HOME/.jnewsrc.time</filename>,
+<filename>$HOME/.slrnrc</filename></para>
+</sect3>
+
+<sect3><title>配置信息</title>
+
+<para>第一次运行 <command>slrn</command>,必须创建<filename>$HOME/.jnewsrc</filename> 文件。为了这种设置能正常工作，你还需要设置一个环境变量 NNTPSERVER，通常可以在用户配置文件如 <filename>/etc/profile</filename>或 <filename>~/.bashrc</filename>里设置。我们这里直接设置它。我们的例子使用<acronym>LFS</acronym> 新闻组服务器，但你可以随便用哪个服务器。</para>
+
+<para>创建 <filename>$HOME/.jnewsrc</filename> 文件可以用下列命令:</para>
+
+<screen><userinput><command>NNTPSERVER=news.linuxfromscratch.org \
+    slrn -f $HOME/.jnewsrc --create</command></userinput></screen>
+
+</sect3>
+
+</sect2>

@@ -1,0 +1,15 @@
+<sect2>
+<title>安装 <application>Inetutils</application></title>
+
+<para>安装<application>Inetutils</application> 可以使用下列命令:</para>
+
+<screen><userinput><command>./configure --prefix=/usr --disable-syslogd \
+	--libexecdir=/usr/sbin --infodir=/usr/share/info \
+    --sysconfdir=/etc --localstatedir=/var \
+	--mandir=/usr/share/man --with-wrap &amp;&amp;
+make &amp;&amp;
+make install &amp;&amp;
+mv /usr/bin/ping /bin</command></userinput></screen>
+
+</sect2>
+

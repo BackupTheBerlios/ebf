@@ -1,0 +1,166 @@
+<sect1>
+
+<title>rc4.d</title>
+
+<table frame="none">
+<title>rc4.d 符号链接</title>
+
+<tgroup cols="4">
+<colspec colnum="1" colwidth="1*" align="left"/>
+<colspec colnum="2" colwidth="7*" align="left"/>
+<colspec colnum="3" colwidth="21*" align="left"/>
+<colspec colnum="4" colwidth="30*" align="left"/>
+
+<tbody>
+
+<row>
+<entry><emphasis>数字</emphasis></entry>
+<entry><emphasis>名称</emphasis></entry>
+<entry><emphasis>链接</emphasis></entry>
+<entry><emphasis>解释</emphasis></entry>
+</row>
+
+<row>
+<entry>S10</entry>
+<entry>sysklogd</entry>
+<entry><filename>../init.d/sysklogd</filename></entry>
+<entry>启动系统和内核日志：来源于LFS.</entry>
+</row>
+
+<row>
+<entry>K05</entry>
+<entry>gdm</entry>
+<entry><filename>../init.d/gdm</filename></entry>
+<entry>关闭Gnome显示管理器(GDM)守护进程: <xref linkend="gdm"/></entry>
+</row>
+
+<row><entry>S20</entry>
+<entry>network</entry>
+<entry><filename>../init.d/network</filename></entry>
+<entry>启动网络：来源于LFS.</entry>
+</row>
+
+<row>
+<entry>S21</entry>
+<entry>firewall</entry>
+<entry><filename>../init.d/firewall</filename></entry>
+<entry>加载防火墙设置： <xref linkend="postlfs-security-fw-firewall"/></entry>
+</row>
+
+<row>
+<entry>S22</entry>
+<entry>bind</entry>
+<entry><filename>../init.d/bind</filename></entry> 
+<entry>启动域名服务进程(DNS)：<xref linkend="bind"/></entry>
+</row>
+
+<row>
+<entry>S22</entry>
+<entry>portmap</entry>
+<entry><filename>../init.d/portmap</filename></entry>
+<entry>转发 RPC 请求：<xref linkend="portmap"/></entry>
+</row>
+
+<row>
+<entry>S23</entry>
+<entry>xinetd</entry>
+<entry><filename>../init.d/xinetd</filename></entry>
+<entry>加载 internet 服务进程：<xref linkend="xinetd"/></entry>
+</row>
+
+<row>
+<entry>S24</entry>
+<entry>adsl</entry>
+<entry><filename>../init.d/adsl</filename></entry>
+<entry>启动 <acronym>ADSL</acronym> 客户端: <xref linkend="pppoe"/></entry>
+</row>
+
+<row>
+<entry>S24</entry>
+<entry>NFS</entry>
+<entry><filename>../init.d/nfs</filename></entry>
+<entry>启动网络文件系统：</entry>
+</row>
+
+<row>
+<entry>S24</entry>
+<entry>samba</entry>
+<entry><filename>../init.d/samba</filename></entry>
+<entry>启动网络文件系统： <xref linkend="samba"/></entry>
+</row>
+
+<row>
+<entry>S25</entry>
+<entry>random</entry>
+<entry><filename>../init.d/random</filename></entry>
+<entry>恢复随机数种子：<xref linkend="postlfs-config-random"/></entry>
+</row>
+
+<row>
+<entry>S30</entry>
+<entry>sshd</entry>
+<entry><filename>../init.d/sshd</filename></entry>
+<entry>启动 Secure Shell 守护进程：<xref linkend="openssh"/></entry>
+</row>
+
+ <row>
+<entry>S32</entry>
+<entry>apache</entry>
+<entry><filename>../init.d/apache</filename></entry>
+<entry>启动 Apache 守护进程: <xref linkend="apache"/></entry>
+</row>
+
+<row>
+<entry>S34</entry>
+<entry>mysql</entry>
+<entry><filename>../init.d/mysql</filename></entry>
+<entry>启动 MySQL 守护进程：<xref linkend="mysql"/></entry>
+</row>
+
+<row>
+<entry>S34</entry>
+<entry>postgresql</entry>
+<entry><filename>../init.d/postgresql</filename></entry>
+<entry>启动 PostgreSQL 守护进程：<xref linkend="postgresql"/></entry>
+</row>
+
+<row>
+<entry>S35</entry>
+<entry>postfix</entry>
+<entry><filename>../init.d/postfix</filename></entry>
+<entry>启动 Postfix MTA: <xref linkend="postfix"/></entry>
+</row>
+
+<row>
+<entry>S40</entry>
+<entry>alsa</entry>
+<entry><filename>../init.d/alsa</filename></entry>
+<entry>启动声音支持： <xref linkend="alsa"/></entry>
+</row>
+
+<row>
+<entry>S40</entry>
+<entry>fcron</entry>
+<entry><filename>../init.d/fcron</filename></entry>
+<entry>启动 Cron 守护进程：<xref linkend="fcron"/></entry>
+</row>
+
+<row>
+<entry>S70</entry>
+<entry>gpm</entry>
+<entry><filename>../init.d/gpm</filename></entry>
+<entry>启动gpm守护进程： <xref linkend="gpm"/></entry>
+</row>
+
+<row>
+<entry>S99</entry>
+<entry>lprng</entry>
+<entry><filename>../init.d/lprng</filename></entry>
+<entry>启动LPR打印池: <xref linkend="LPRng"/></entry>
+</row>
+
+</tbody>
+</tgroup>
+</table>
+
+</sect1>

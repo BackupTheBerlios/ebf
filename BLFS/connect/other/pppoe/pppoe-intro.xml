@@ -1,0 +1,26 @@
+<sect2>
+<title>简单介绍<application><acronym>RP</acronym>-<acronym>PPPoE</acronym></application></title>
+
+<para>Roaring Penguin <application><acronym>PPPoE</acronym></application> 
+既包括客户端，也包括支持这一客户端的服务器组件。客户端可用于连接到使用<acronym>PPPoE</acronym>协议的大型网络，通常 <acronym>ADSL</acronym> 服务提供商都使用这种协议。服务器组件与客户端并行运行，使你可以用其他客户端来发出配置请求。</para>
+
+<sect3><title>软件包信息</title>
+<itemizedlist spacing='compact'>
+<listitem><para>下载 (HTTP): <ulink
+url="&pppoe-download-http;"/></para></listitem>
+<listitem><para>下载 (FTP): <ulink
+url="&pppoe-download-ftp;"/></para></listitem>
+<listitem><para>下载软件包大小: &pppoe-size;</para></listitem>
+<listitem><para>预计磁盘使用空间:
+&pppoe-buildsize;</para></listitem>
+<listitem><para>预计编译时间:
+&pppoe-time;</para></listitem></itemizedlist>
+</sect3>
+                                                                                
+<sect3><title><application><acronym>RP</acronym>-<acronym>PPPoE</acronym></application> 依赖关系</title>
+<sect4><title>必备</title>
+<para><xref linkend="ppp"/></para></sect4>
+</sect3>
+
+
+</sect2>

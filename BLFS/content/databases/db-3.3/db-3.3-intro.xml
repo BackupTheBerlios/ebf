@@ -1,0 +1,20 @@
+<sect2>
+<title>简单介绍<application>Berkeley DB</application>-&db-3.3-version;</title>
+
+<para><application>Berkeley DB</application> 包括 &db-3.3-version; 版的 Berkeley Database.</para>
+
+<sect3><title>软件包信息</title>
+<itemizedlist spacing='compact'>
+<listitem><para>下载 (HTTP): <ulink
+url="&db-3.3-download-http;"/></para></listitem>
+<listitem><para>下载 (FTP): <ulink
+url="&db-3.3-download-ftp;"/></para></listitem>
+<listitem><para>下载软件包大小: &db-3.3-size;</para></listitem>
+<listitem><para>预计磁盘使用空间:
+&db-3.3-buildsize;</para></listitem>
+<listitem><para>预计编译时间:
+&db-3.3-time;</para></listitem></itemizedlist>
+</sect3>
+
+
+</sect2>

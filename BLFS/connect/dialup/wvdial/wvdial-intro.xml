@@ -1,0 +1,21 @@
+<sect2>
+<title>简单介绍<application>WvDial</application></title>
+
+<para><application>WvDial</application> 包括一个智能、快速和易用的拨号程序，是 <command>chat</command> 程序和 <command>pppd</command> 之外的替代选择。如果你只想简单的拨号，不想搞混乱的 <command>chat</command> 程序，就用它好了。</para>
+
+<sect3><title>软件包信息</title>
+<itemizedlist spacing='compact'>
+<listitem><para>下载 (HTTP): <ulink url="&wvdial-download-http;"/></para></listitem>
+<listitem><para>下载 (FTP): <ulink url="&wvdial-download-ftp;"/></para></listitem>
+<listitem><para>下载软件包大小: &wvdial-size;</para></listitem>
+<listitem><para>预计磁盘使用空间: &wvdial-buildsize;</para></listitem>
+<listitem><para>预计编译时间: &wvdial-time;</para></listitem></itemizedlist>
+</sect3>
+
+<sect3><title><application>WvDial</application> 依赖关系</title>
+<sect4><title>必备</title>
+<para><xref linkend="wvstreams"/> 和 <xref linkend="ppp"/>
+</para></sect4>
+</sect3>
+
+</sect2>

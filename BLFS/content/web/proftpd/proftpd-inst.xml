@@ -1,0 +1,19 @@
+<sect2>
+<title>安装 <application>ProFTPD</application></title>
+
+<para>出于安全因素，高度推荐以非特权用户和组运行 <application>ProFTPD</application>。</para>
+
+<screen><userinput><command>groupadd proftpd &amp;&amp;
+useradd -c proftpd -d /home/ftp -g proftpd -s /bin/false proftpd</command>
+</userinput></screen>
+
+<para>安装<application>ProFTPD</application> 可以使用下面的命令:</para>
+
+<screen><userinput><command>install_user=proftpd install_group=proftpd \
+&nbsp;&nbsp;&nbsp;./configure --prefix=/usr --sysconfdir=/etc \
+&nbsp;&nbsp;&nbsp;--localstatedir=/var &amp;&amp;
+make &amp;&amp;
+make install </command></userinput></screen>
+
+</sect2>
+

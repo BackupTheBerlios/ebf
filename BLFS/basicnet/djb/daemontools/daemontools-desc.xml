@@ -1,0 +1,88 @@
+<sect2>
+<title>内容</title>
+
+<para>daemontools 包括
+<command>svscanboot</command>, <command>svscan</command>,
+<command>supervise</command>, <command>svc</command>,
+<command>svok</command>, <command>svstat</command>,
+<command>fghack</command>, <command>pgrphack</command>,
+<command>readproctitle</command>, <command>multilog</command>,
+<command>tai64n</command>, <command>tai64nlocal</command>,
+<command>setuidgid</command>, <command>envuidgid</command>,
+<command>envdir</command>, <command>softlimit</command> 和 
+<command>setlock</command>. 更详细的描述，请参考 <ulink url="http://cr.yp.to/daemontools.html"/>.</para>
+
+</sect2>
+
+<sect2><title>说明</title>
+
+<sect3><title>svscanboot</title>
+<para><command>svscanboot</command> 是一个普通的脚本， 用来运行 <command>svscan</command> 并将其输出定向到 readproctitle.</para></sect3>
+
+<sect3><title>svscan</title>
+<para><command>svscan</command> 检查 <filename>service</filename> 目录，为每一个找到的脚本启动<command>supervise</command>管理进程。</para></sect3>
+
+<sect3><title>supervise</title>
+<para><command>supervise</command>运行 <command>svscan</command> 给它的运行脚本，监听脚本开始的进程，当进程死亡的时候，使之重新运行。</para></sect3>
+
+<sect3><title>svc</title>
+<para><command>svc</command> sends signals to processes being run under 
+<command>supervise</command>.
+</para></sect3>
+
+<sect3><title>svok</title>
+<para><command>svok</command> checks to see that
+<command>supervise</command> is running in the directory 
+passed to it.</para></sect3>
+
+<sect3><title>svstat</title>
+<para><command>svstat</command> prints the status of processes monitored by 
+<command>supervise</command>.</para></sect3>
+
+<sect3><title>fghack</title>
+<para><command>fghack</command> prevents processes from putting themselves into 
+the background.</para></sect3>
+
+<sect3><title>pgrphack</title>
+<para><command>pgrphack</command> runs a process in a separate process group.
+</para></sect3>
+
+<sect3><title>readproctitle</title>
+<para><command>readproctitle</command> displays log entries in the output of 
+<command>ps</command>.
+</para></sect3>
+
+<sect3><title>multilog</title>
+<para><command>multilog</command> is a logging program. It takes output from a 
+daemon 和 appends it to any number of logs.</para></sect3>
+
+<sect3><title>tai64n</title>
+<para><command>tai64n</command> is a timestamp generating program.</para>
+</sect3>
+
+<sect3><title>tai64nlocal</title>
+<para><command>tai64nlocal</command> converts output of tai64n into a human 
+readable format.</para></sect3>
+
+<sect3><title>setuidgid</title>
+<para><command>setuidgid</command> runs a specified program under a given 
+account's <acronym>UID</acronym> 和 <acronym>GID</acronym>.</para></sect3>
+
+<sect3><title>envuidgid</title>
+<para><command>envuidgid</command> performs the same function as setuidgid, 
+but sets environment variables <envar>UID</envar> 和 <envar>GID</envar> equal 
+to the <acronym>UID</acronym> 和 <acronym>GID</acronym> of the account specified.</para></sect3>
+
+<sect3><title>envdir</title>
+<para><command>envdir</command> runs a given program with environment variables 
+specified by files in a directory.</para></sect3>
+
+<sect3><title>softlimit</title>
+<para><command>softlimit</command> allows resource limits to be set for a given 
+program.</para></sect3>
+
+<sect3><title>setlock</title>
+<para><command>setlock</command> locks a file 和 runs a program.</para></sect3>
+
+</sect2>
+

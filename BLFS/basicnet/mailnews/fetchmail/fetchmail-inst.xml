@@ -1,0 +1,11 @@
+<sect2>
+<title>安装 <application>Fetchmail</application></title>
+
+<para>安装<application>Fetchmail</application> 可以使用下面命令:</para>
+
+<screen><userinput><command>./configure --prefix=/usr --with-ssl --enable-fallback=procmail &amp;&amp;
+make &amp;&amp;
+make install</command></userinput></screen>
+
+</sect2>
+

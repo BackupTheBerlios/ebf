@@ -1,0 +1,29 @@
+<sect2>
+<title>简单介绍<application>WvStreams</application></title>
+
+<para><application>WvStreams</application> 包括网络编程库，是编译 wvdial 所需要的。</para>
+
+<sect3><title>软件包信息</title>
+<itemizedlist spacing='compact'>
+<listitem><para>下载 (HTTP): <ulink url="&wvstreams-download-http;"/></para></listitem>
+<listitem><para>下载 (FTP): <ulink url="&wvstreams-download-ftp;"/></para></listitem>
+<listitem><para>下载软件包大小: &wvstreams-size;</para></listitem>
+<listitem><para>预计磁盘使用空间: &wvstreams-buildsize;</para></listitem>
+<listitem><para>预计编译时间: &wvstreams-time;</para></listitem></itemizedlist>
+</sect3>
+
+<sect3><title>额外下载</title>
+<itemizedlist spacing='compact'>
+<listitem><para>必备 Patch: <ulink
+url="&patch-root;/wvstreams-&wvstreams-version;-wvcrypto.patch"/></para></listitem>
+<listitem><para>必备 Patch: <ulink
+url="&patch-root;/wvstreams-&wvstreams-version;-wvresolver.patch"/></para></listitem>
+</itemizedlist></sect3>
+
+<sect3><title><application>WvStreams</application> 依赖关系</title>
+<sect4><title>必备</title>
+<para><xref linkend="openssl"/>
+</para></sect4>
+</sect3>
+
+</sect2>

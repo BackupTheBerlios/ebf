@@ -1,0 +1,10 @@
+<sect2>
+<title>√¸¡ÓΩ‚ Õ</title>
+
+<para><parameter>--enable-mods-shared=all</parameter>: We want modules
+to be compiled ∫Õ used as Dynamic Shared Objects
+(<acronym>DSO</acronym>s) so they can be included ∫Õ excluded from the
+server using the run-time configuration directives.
+</para>
+
+</sect2>

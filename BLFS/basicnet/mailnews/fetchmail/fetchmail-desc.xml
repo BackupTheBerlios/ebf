@@ -1,0 +1,25 @@
+<sect2>
+<title>内容</title>
+
+<para><application>Fetchmail</application> 包括 
+<command>fetchmail</command> 和 <command>fetchmailconf</command>.</para>
+
+</sect2>
+
+<sect2><title>说明</title>
+
+<sect3><title>fetchmail</title>
+<para>When executed as a user, this will source that users
+<filename>~/.fetchmailrc</filename> 和 download the appropriate mail.
+</para></sect3>
+
+<sect3><title>fetchmailconf</title>
+<para>This program provides a <application>Tk</application>
+<acronym>GUI</acronym> interface to your
+<filename>~/.fetchmailrc</filename> making it 
+much easier to configure.  However you will require,
+<application>Python</application>, 和 it must 
+have the Tkinker module available.</para></sect3>
+
+</sect2>
+

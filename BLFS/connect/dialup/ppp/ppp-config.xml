@@ -1,0 +1,14 @@
+<sect2>
+<title>配置 <application><acronym>PPP</acronym></application></title>
+
+<sect3><title>配置文件</title>
+<para><filename>/etc/ppp/*</filename></para>
+</sect3>
+
+<sect3><title>配置信息</title>
+
+<para><application><acronym>PPP</acronym></application> 守护进行本身不需要什么配置。主要的技巧是写连接脚本，这一步既可以使用软件包自带的 chat 程序，也可以使用 <xref linkend="wvdial"/>.</para>
+</sect3>
+
+</sect2>
+

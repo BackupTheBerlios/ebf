@@ -1,0 +1,25 @@
+<sect2>
+<title>简单介绍<application>ucspi-tcp</application></title>
+
+<para><application>ucspi-tcp</application> 软件包由一组工具组成。它们用来简单的建立客户机－服务器tcp守护进程。<command> tcpserver</command> 是一个比<command>inetd</command>安全性好得多的选择。它内建有基于规则的连接控制，能完美地在达到预定义的最大系统负载时将连接推迟，这点比<command>inetd</command>好。<command>tcpserver</command> 也被推荐与 <application>qmail</application>一同使用，因为它们是同一个作者编的程序。</para>
+
+<sect3><title>软件包信息</title>
+<itemizedlist spacing='compact'>
+<listitem><para>下载 (HTTP): <ulink
+url="&ucspi-tcp-download-http;"/></para></listitem>
+<listitem><para>下载 (FTP): <ulink
+url="&ucspi-tcp-download-ftp;"/></para></listitem>
+<listitem><para>下载软件包大小: &ucspi-tcp-size;</para></listitem>
+<listitem><para>预计磁盘使用空间:
+&ucspi-tcp-buildsize;</para></listitem>
+<listitem><para>预计编译时间:
+&ucspi-tcp-time;</para></listitem></itemizedlist>
+</sect3>
+
+<sect3><title>额外下载</title>
+<itemizedlist spacing='compact'>
+<listitem><para>必备 patch: <ulink url="&patch-root;/ucspi-tcp-0.88-errno.patch"/></para></listitem>
+</itemizedlist>
+</sect3>
+
+</sect2>

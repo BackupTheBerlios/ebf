@@ -1,0 +1,13 @@
+<chapter id="connect-dhcp">
+<?dbhtml filename="dhcp.html" dir="connect"?>
+<title><acronym>DHCP</acronym> 客户端</title>
+
+<para><acronym>DHCP</acronym> 是 Dynamic Host Configuration Protocol (动态主机配置协议)的缩写。这个协议用于向计算机自动提供 <acronym>IP</acronym> 地址,子网掩码和路由信息等等。如果你的网络使用 <acronym>DHCP</acronym>, 就需要用一个 <acronym>DHCP</acronym> 客户端，以便连网。<acronym>DHCP</acronym> 也可用于一些 cable modem 连接。</para>
+
+<para>我们现在提供了两种 <acronym>DHCP</acronym> 客户端的安装指导，<command>dhclient</command> (在 <application>dhcp</application> 软件包中) 和 <command>dhcpcd</command>。我们先讲述如何修改 <acronym>LFS</acronym> 的启动脚本，以提供通用的 <acronym>DHCP</acronym> 支持，然后奉上两套安装指导，讨论如何按照你选择的 <acronym>DHCP</acronym> 客户端，建立合适的配置文件。</para>
+
+&connect-dhcp-bootscripts;
+&connect-dhcp-client;
+&dhcpcd;
+
+</chapter>

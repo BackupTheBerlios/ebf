@@ -1,0 +1,21 @@
+<sect2>
+<title>简单介绍<application>Inetutils</application></title>
+
+<para><application>Inetutils</application> 包括网络客户端和服务器。LFS中安装的<application>Inetutils</application>没有安装各种自带的服务器，我们<acronym>BLFS</acronym>来补上。</para>
+
+<sect3><title>软件包信息</title>
+<itemizedlist spacing='compact'>
+<listitem><para>下载 (HTTP): <ulink url="&inetutils-download-http;"/></para></listitem>
+<listitem><para>下载 (FTP): <ulink url="&inetutils-download-ftp;"/></para></listitem>
+<listitem><para>下载软件包大小: &inetutils-size;</para></listitem>
+<listitem><para>预计磁盘使用空间: &inetutils-buildsize;</para></listitem>
+<listitem><para>预计编译时间: &inetutils-time;</para></listitem></itemizedlist>
+</sect3>
+
+<sect3><title><application>Inetutils</application> 依赖关系</title>
+<sect4><title>可选</title>
+<para><xref linkend="Linux_PAM"/>, 和 <xref linkend="tcpwrappers"/></para></sect4>
+</sect3>
+
+
+</sect2>

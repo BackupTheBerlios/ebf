@@ -1,0 +1,13 @@
+<sect2>
+<title>配置 <application>Berkeley DB</application></title>
+
+<sect3><title>配置信息</title>
+
+<!-- &library-config; -->
+
+<para>如果你在安装了<application>Berkeley DB</application>-&db-version;以后重新编译 <application>Perl</application>，需要使用 <filename>perl-5.8.0-db-4.1.patch</filename> 补丁，在 <ulink url="&hfile-root;"/>可以找到。</para>
+
+</sect3>
+
+</sect2>
+

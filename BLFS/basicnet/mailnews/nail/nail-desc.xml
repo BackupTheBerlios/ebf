@@ -1,0 +1,13 @@
+<sect2>
+<title>内容</title>
+<para><application>Nail</application> 包括 <command>nail
+</command>, 一个与商业 Unix 版本中 <command>mail</command> 命令相兼容的程序。</para>
+</sect2>
+
+<sect2><title>说明</title>
+
+<sect3><title>nail</title>
+<para><command>nail</command> 是命令行下的邮件用户代理程序。</para></sect3>
+
+</sect2>
+

@@ -1,0 +1,14 @@
+<sect2>
+<title>安装 <application><acronym>RP</acronym>-<acronym>PPPoE</acronym></application></title>
+
+<para>如果你想使用请求拨号，或者内核模式的<acronym>PPPoE</acronym>, 一定要在安装 <xref linkend="ppp"/> 时运用相应的补丁。关于内核模式 <acronym>PPPoE</acronym> 的更多信息参见 <filename>rp-pppoe-&pppoe-version;/doc/KERNEL-MODE-PPPOE</filename>.</para>
+
+<para>安装<application><acronym>RP</acronym>-<acronym>PPPoE</acronym></application> 可以使用下面的命令:</para>
+
+<screen><userinput><command>cd src &amp;&amp;
+./configure &amp;&amp;
+make &amp;&amp;
+make install</command></userinput></screen>
+
+</sect2>
+

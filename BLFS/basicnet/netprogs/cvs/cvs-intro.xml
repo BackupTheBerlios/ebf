@@ -1,0 +1,22 @@
+<sect2>
+<title>简单介绍<application><acronym>CVS</acronym></application></title>
+
+<para><application><acronym>CVS</acronym></application>是 Concurrent Versioning System 的缩写，意思是并行版本系统。它是版本控制系统的一种，可以集中存放文件，并记录文件的所有更改。下面的安装指导，只是安装了客户端，如果你要安装服务器，可以看看 <xref linkend="cvsserver"/>.
+</para>
+
+<sect3><title>软件包信息</title>
+<itemizedlist spacing='compact'>
+<listitem><para>下载 (HTTP): <ulink url="&cvs-download-http;"/></para></listitem>
+<listitem><para>下载 (FTP): <ulink url="&cvs-download-ftp;"/></para></listitem>
+<listitem><para>下载软件包大小: &cvs-size;</para></listitem>
+<listitem><para>预计磁盘使用空间: &cvs-buildsize;</para></listitem>
+<listitem><para>预计编译时间: &cvs-time;</para></listitem></itemizedlist>
+</sect3>
+
+<!--
+<sect3><title>额外下载</title>
+<itemizedlist spacing='compact'>
+<listitem><para>可选 Patch: <ulink url="&hfile-root;/cvs-&cvs-version;-zlib.patch"/></para></listitem></itemizedlist></sect3>
+-->
+
+</sect2>

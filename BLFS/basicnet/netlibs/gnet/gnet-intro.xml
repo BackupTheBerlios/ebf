@@ -1,0 +1,26 @@
+<sect2>
+<title>简单介绍<application>GNet</application></title>
+
+
+<para><application>GNet</application> 包一个简单的网络库，用来支持 <acronym>TCP</acronym> 套接字, <acronym>UDP</acronym> 和 <acronym>IP</acronym> 多播,异步 <acronym>DNS</acronym> 查找以及更多功能.</para>
+
+<sect3><title>软件包信息</title>
+<itemizedlist spacing='compact'>
+<listitem><para>下载 (HTTP): <ulink
+url="&gnet-download-http;"/></para></listitem>
+<listitem><para>下载 (FTP): <ulink
+url="&gnet-download-ftp;"/></para></listitem>
+<listitem><para>下载软件包大小: &gnet-size;</para></listitem>
+<listitem><para>预计磁盘使用空间:
+&gnet-buildsize;</para></listitem>
+<listitem><para>预计编译时间:
+&gnet-time;</para></listitem></itemizedlist>
+</sect3>
+
+<sect3><title><application>GNet</application> 依赖关系</title>
+<sect4><title>必备</title>
+<para><xref linkend="GLib2"/></para></sect4>
+</sect3>
+
+
+</sect2>

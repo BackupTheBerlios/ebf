@@ -1,0 +1,11 @@
+<sect2>
+<title>简单介绍zlib</title>
+
+<screen>下载地址:		<ulink url="&zlib-download;"/>
+使用版本:			&zlib-version;
+软件包大小:			&zlib-size;
+预计磁盘使用空间:	&zlib-buildsize;</screen>
+
+<para>zlib 包含了其它压缩和解压缩软件需要使用的zlib库文件。</para>
+
+</sect2>

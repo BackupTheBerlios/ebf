@@ -1,0 +1,16 @@
+<appendix role="dsssl" id="appendices-old">
+<?dbhtml filename="old.html" dir="appendices"?>
+<title>BLFS 说明书中不会再有的软件包</title>
+
+<para>这个附录包含了出于这样或那样的原因从BLFS安装说明书中移除的软件包。它们被移除的原因写在安装指导的顶部。要注意这些指导已经不再被维护并且可能在将来被去除掉。</para>
+
+&gnome-common;
+&libzvt;
+&enlightenment;
+&fnlib;
+&pspell;
+&postlfs-security-nessus;
+&bonobo-conf;
+<!-- &inetutils; -->
+&STLport;
+</appendix>

@@ -1,0 +1,25 @@
+<sect2>
+<title>简单介绍<application>Fetchmail</application></title>
+
+<para><application>Fetchmail</application> 包括邮件接收程序。 &quot;它从远程邮件服务器上得到邮件，收回到本地机器上，以便于一般的邮件用户代理阅读。&quot; </para>
+
+<sect3><title>软件包信息</title>
+<itemizedlist spacing='compact'>
+<listitem><para>下载 (HTTP): <ulink
+url="&fetchmail-download-http;"/></para></listitem>
+<listitem><para>下载 (FTP): <ulink
+url="&fetchmail-download-ftp;"/></para></listitem>
+<listitem><para>下载软件包大小: &fetchmail-size;</para></listitem>
+<listitem><para>预计磁盘使用空间:
+&fetchmail-buildsize;</para></listitem>
+<listitem><para>预计编译时间:
+&fetchmail-time;</para></listitem></itemizedlist>
+</sect3>
+
+<sect3><title><application>Fetchmail</application> 依赖关系</title>
+<sect4><title>必备</title>
+<para><xref linkend="openssl"/> 和一个本地的 MDA (<xref
+linkend="procmail"/>) </para></sect4>
+</sect3>
+
+</sect2>

@@ -1,0 +1,24 @@
+<sect2>
+<title>配置 <application>dhcpcd</application></title>
+
+<sect3><title>配置文件</title>
+<para><filename>/var/lib/dhcpc/*</filename></para></sect3>
+
+<sect3><title>配置信息</title>
+
+<para>要配置 <command>dhcpcd</command>, 先用下列命令建立 <filename>ifconfig.eth0</filename> 文件，它会覆盖以前存在的文件:</para>
+
+<screen><userinput><command>cd /etc/sysconfig/network-devices &amp;&amp;
+cat &gt; ifconfig.eth0 &lt;&lt; "EOF"</command>
+ONBOOT=yes
+DHCP_PROG=/sbin/dhcpcd
+DHCP_START=&lt;appropriate start parameters&gt;
+DHCP_STOP=-k
+<command>EOF</command></userinput></screen>
+
+<para>要得到关于 <envar>DHCP_START</envar> 和 <envar>DHCP_STOP</envar> 参数的详细资料，请参看 <command>dhcpcd</command> 的 man 文档。</para>
+
+</sect3>
+
+</sect2>
+

@@ -1,0 +1,10 @@
+<sect2>
+<title>安装 <application>WvDial</application></title>
+
+<para>安装<application>WvDial</application> 可以使用下面的命令:</para>
+
+<screen><userinput><command>make PREFIX=/usr &amp;&amp;
+make PREFIX=/usr install</command></userinput></screen>
+
+</sect2>
+

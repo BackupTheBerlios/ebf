@@ -1,0 +1,17 @@
+<sect1 id="zlib" xreflabel="zlib-&zlib-version;">
+<?dbhtml filename="zlib.html" dir="appendices"?>
+<title>zlib-&zlib-version;</title>
+
+<warning><para>这个软件包已经从BLFS中移除。</para>
+<para>从BLFS安装说明书中移除这个软件包的原因在于在LFS-4.0中，LFS安装说明书已经包含了这个软件包。如果你使用了一个版本比这个更老的LFS，你仍然需要安装这个软件包。反过来，你完全可以忽略与这个软件包有关的依赖关系。</para></warning>
+
+<para>Zlib为程序提供了压缩和解压缩的库文件。绝大多数的人都要使用zlib，因为服务器和客户机都需要openssl库文件而使用这个库文件又需要zlib。服务器需要openssl，因为它要运行OpenSSH服务。而客户机需要openssl是因为大部分网页浏览器要处理安全的http站点。</para>
+
+&zlib-intro;
+&zlib-inst;
+&zlib-exp;
+&zlib-config;
+&zlib-desc;
+
+</sect1>
+

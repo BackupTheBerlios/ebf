@@ -1,0 +1,26 @@
+<sect2>
+<title>内容</title>
+
+<para><application>cURL</application> 包括 <command>curl</command>, <command>curl-config</command> 和 <filename class="libraryfile">libcurl</filename> 库文件.</para>
+
+</sect2>
+
+<sect2><title>说明</title>
+
+<sect3><title>curl</title>
+<para><command>curl</command> is a client that can get documents from 或 send documents to
+any of the following protocols: <acronym>HTTP</acronym>,
+HTTPS (needs <xref linkend="openssl"/>),
+<acronym>FTP</acronym>, GOPHER, DICT, TELNET, <acronym>LDAP</acronym> (needs <xref
+linkend="openldap"/>) 或 FILE.</para></sect3>
+
+<sect3><title>curl-config</title>
+<para><command>curl-config</command> prints information about the last compile, like
+库文件 linked to 和 prefix setting.</para></sect3>
+
+<sect3><title>curl library</title>
+<para><filename class="libraryfile">libcurl</filename> provides the functionality of 
+curl to other programs.</para></sect3>
+
+</sect2>
+

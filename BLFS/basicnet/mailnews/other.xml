@@ -1,0 +1,17 @@
+<sect1 id="basicnet-mailnews-other">
+<?dbhtml filename="othermn.html" dir="basicnet"?>
+<title>其它邮件新闻组程序</title>
+
+<para><xref linkend="pan"/> 是一个基于 <acronym>GTK</acronym>2 的新闻组阅读程序。</para>
+
+<para>KNode 是一个基于 QT 的新闻组阅读程序：<xref linkend="kde-network"/>.</para>
+
+<para>KMail 是一个基于 QT 的邮件客户端：<xref linkend="kde-network"/>.</para>
+
+<para><xref linkend="balsa"/> 是一个基于 <acronym>GTK</acronym>2的邮件客户端。</para>
+
+<para><xref linkend="mozilla"/> 的安装里包含一个邮件客户端和一个新闻组阅读程序，只要你是按照安装 <application>Mozilla Thunderbird</application>的注意事项来做就行了，而它就是基于<application>Mozilla</application>代码库的邮件/新闻组客户端。</para>
+
+<para><xref linkend="evolution"/> 是一个基于 <acronym>GTK</acronym>2 的邮件客户端。</para> 
+
+</sect1>

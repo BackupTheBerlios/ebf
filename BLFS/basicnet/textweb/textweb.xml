@@ -1,0 +1,11 @@
+<chapter id="basicnet-textweb">
+<?dbhtml filename="textweb.html" dir="basicnet"?>
+<title>基于文本的Web浏览器</title>
+
+<para>类Unix系统的新用户总是问一个问题：“到底为什么我要用基于文字界面的Web浏览器？我要编译X，用Konqueror和Mozilla或者其他什么浏览器！”一些高手都知道，当你把你的图形界面浏览器搞得一团糟的时候，一个基于控制台的Web浏览器可以帮助你解决困难。而且，还是有人愿意利用这些浏览器作为日常应用的浏览器，为了避免图片带来的混乱或带宽的要求，或者是为了使用文本发音（text-to-speech－－视力不好的人或盲人使用）软件。我们现在要安装3个控制台的Web浏览器：</para>
+
+&Links;
+&lynx;
+&w3m;
+
+</chapter>

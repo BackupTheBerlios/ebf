@@ -1,0 +1,14 @@
+<sect2>
+<title>安装 <application>Traceroute</application></title>
+
+<para>安装<application>Traceroute</application> 可以运行下面的命令:</para>
+
+<screen><userinput><command>mv Makefile.in Makefile.in.bak &amp;&amp;
+sed 's/-o bin/-o root/' Makefile.in.bak &gt; Makefile.in &amp;&amp;
+./configure --prefix=/usr &amp;&amp;
+make &amp;&amp;
+make install &amp;&amp;
+make install-man</command></userinput></screen>
+
+</sect2>
+

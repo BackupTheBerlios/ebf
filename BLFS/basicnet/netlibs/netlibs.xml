@@ -1,0 +1,14 @@
+<chapter id="basicnet-netlibs">
+<?dbhtml filename="netlibs.html" dir="basicnet"?>
+<title>网络库</title>
+
+<para>下面的软件包都是本书中其他程序所需要的支持库。你不应该仅仅安装它们，通常情况是，在安装其他程序的时候，为了满足依赖关系，而安装本节的软件包。</para>
+
+
+
+&curl;
+&wvstreams;
+&gnet;
+&libsoup;
+
+</chapter>

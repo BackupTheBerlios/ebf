@@ -1,0 +1,30 @@
+<sect2>
+<title>内容</title>
+
+<para><application>NTP</application> 包括 NTP 协议客户端和服务器。</para>
+
+</sect2>
+
+<sect2><title>说明</title>
+
+<para><command>ntpd</command>:
+NTP daemon that runs in the background 和 keeps the date/time synchronized
+based on response from configured NTP servers. It also functions as a NTP
+server.</para>
+
+<para><command>ntpdate</command>:
+NTP Client program that sets the date/time based on the response from
+an NTP Server. This command is deprecated.</para>
+
+<para><command>ntp-genkeys</command>:
+This program generates cryptographic data files used by the NTPv4
+authentication 和 identification schemes. a ARPANET file transfer client.</para>
+
+<para><command>ntpdc</command> 和 <command>ntpq</command>:
+Programs to query 和 set <command>ntpd</command> configuration.</para>
+
+<para><command>ntptrace</command>:
+Trace a chain of NTP servers back to the primary source.</para>
+
+</sect2>
+

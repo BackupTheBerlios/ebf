@@ -1,0 +1,8 @@
+<sect1 id="basicnet-netprogs-rsync">
+<?dbhtml filename="rsync.html" dir="basicnet"?>
+<title>rsync-&rsync-version; client</title>
+
+<para>rsync 是快速的增量文件传输程序。如果你要安装它，可以参考第 23 - <xref linkend="rsync"/> 的安装指导。。注意，如果你只想要用客户端，那么你<emphasis>不需要</emphasis> 运行服务器端和启动脚本以及链接。为了系统安全，应该只在你确实需要的时候运行服务器端。（如果你搞不清楚自己是不是需要，那就是不需要，嘿嘿）</para>
+
+</sect1>
+

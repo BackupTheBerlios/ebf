@@ -1,0 +1,17 @@
+<sect2>
+<title>安装 zlib</title>
+
+<para>安装zlib 可以使用下面命令:</para>
+
+<para><screen><userinput>./configure --prefix=/usr &amp;&amp;</userinput>
+<userinput>make &amp;&amp;</userinput>
+<userinput>make install &amp;&amp;</userinput>
+<userinput>./configure --prefix=/usr --shared &amp;&amp;</userinput>
+<userinput>make &amp;&amp;</userinput>
+<userinput>make install &amp;&amp;</userinput>
+<userinput>cp zlib.3 /usr/share/man/man3</userinput>
+</screen>
+</para>
+
+</sect2>
+

@@ -1,0 +1,11 @@
+<part id="connect" xreflabel="Connecting to a Network">
+<?dbhtml filename="connect.html" dir="connect"?>
+<title>连接到网络</title>
+
+<partintro><para> <acronym>LFS</acronym> 安装指导书讲述了如何连接到使用静态 <acronym>IP</acronym> 地址的网络，然而，还有许多种连接到局域网和因特网的方法，本章就介绍几种最流行的方法。</para></partintro>
+
+&connect-dialup;
+&connect-dhcp;
+&connect-other;
+
+</part>

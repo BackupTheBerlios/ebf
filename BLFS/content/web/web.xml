@@ -1,0 +1,11 @@
+<chapter id="content-web">
+<?dbhtml filename="web.html" dir="content"?>
+<title>Web服务器</title>
+
+<para>本章包含对因特网请求应答的程序，尤其是<acronym>HTTP</acronym> 请求和 <acronym>FTP</acronym> 请求。</para>
+
+&apache;
+&php; 
+&proftpd;
+
+</chapter>

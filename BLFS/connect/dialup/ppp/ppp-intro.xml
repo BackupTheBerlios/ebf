@@ -1,0 +1,30 @@
+<sect2>
+<title>简单介绍<application><acronym>PPP</acronym></application></title>
+
+<para><application><acronym>PPP</acronym></application> 包括 <command>pppd</command> 守护进程和 <command>chat</command> 程序，用于连接其他机器，通常是用拨号，连接到某个 <acronym>ISP</acronym>，进而连接到因特网。</para>
+
+<sect3><title>软件包信息</title>
+<itemizedlist spacing='compact'>
+<listitem><para>下载 (HTTP): <ulink
+url="&ppp-download-http;"/></para></listitem>
+<listitem><para>下载 (FTP): <ulink
+url="&ppp-download-ftp;"/></para></listitem>
+<listitem><para>下载软件包大小: &ppp-size;</para></listitem>
+<listitem><para>预计磁盘使用空间:
+&ppp-buildsize;</para></listitem>
+<listitem><para>预计编译时间:
+&ppp-time;</para></listitem></itemizedlist>
+</sect3>
+
+<sect3><title>额外下载</title>
+<itemizedlist spacing='compact'>
+<listitem><para>必备补丁，如果你想使用 <xref linkend="pppoe"/> 来作请求拨号或内核模式的 <application><acronym>PPPoE</acronym></application>
+<ulink url="&patch-root;/ppp-2.4.1-pppoe-5.patch"/></para></listitem>
+</itemizedlist>
+</sect3>
+
+<!--
+<screen>ppp needs nothing to compile but you must have PPP support
+either compiled in 或 as a kernel module to use it.</screen> -->
+
+</sect2>

@@ -1,0 +1,28 @@
+<sect2>
+<title>简单介绍<application>daemontools</application></title>
+
+<para><application>daemontools</application> 软件包是 <application>inetd</application> 或 <application>xinetd</application> 的替代品。我们这里用它的主要原因是：它被 <application>qmail</application> 和 <application>djbdns</application>推荐使用。</para>
+
+<sect3><title>软件包信息</title>
+<itemizedlist spacing='compact'>
+<listitem><para>下载 (HTTP): <ulink
+url="&daemontools-download-http;"/></para></listitem>
+<listitem><para>下载 (FTP): <ulink
+url="&daemontools-download-ftp;"/></para></listitem>
+<listitem><para>下载软件包大小: &daemontools-size;</para></listitem>
+<listitem><para>预计磁盘使用空间:
+&daemontools-buildsize;</para></listitem>
+<listitem><para>预计编译时间:
+&daemontools-time;</para></listitem></itemizedlist>
+</sect3>
+
+<sect3><title>额外下载</title>
+<itemizedlist spacing='compact'>
+<listitem><para>必备 patch:
+<ulink url="&patch-root;/daemontools-0.76-errno.patch"/></para></listitem>
+<listitem><para>Man 手册页: <ulink
+url="http://smarden.org/pape/djb/manpages/daemontools-0.76-man.tar.gz"/></para></listitem>
+</itemizedlist>
+</sect3>
+
+</sect2>

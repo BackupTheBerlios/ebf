@@ -1,0 +1,19 @@
+<sect2>
+<title>安装 <application><acronym>PHP</acronym></application></title>
+
+<para>安装<application><acronym>PHP</acronym></application> 可以用下面的命令:</para>
+
+<screen><userinput><command>./configure --prefix=/usr --with-apxs2=/usr/sbin/apxs \
+    --with-config-file-path=/etc --with-openssl=/usr \
+    --with-zlib=/usr --enable-bcmath --with-bz2=/usr \
+    --with-curl --enable-ftp --with-gd --with-jpeg-dir=/usr \
+    --enable-gd-native-ttf --with-db4 --with-png-dir=/usr \
+    --with-freetype-dir=/usr --with-gettext --with-mysql=/usr \
+    --with-ncurses --sysconfdir=/etc &amp;&amp;
+make &amp;&amp;
+make install &amp;&amp;
+cp php.ini-dist /etc/php.ini</command></userinput></screen>
+
+<note><para><acronym>PHP</acronym> 有许多针对相应特性的配置参数，你可以看一看<command>./configure --help</command> 的输出，并且别忘了参考<ulink url="http://www.php.net/"><acronym>PHP</acronym>网站</ulink>，他们的在线文档质量相当高。</para></note>
+
+</sect2>

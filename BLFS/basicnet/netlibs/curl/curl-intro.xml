@@ -1,0 +1,21 @@
+<sect2>
+<title>简单介绍<application>cURL</application></title>
+
+<para><application>cURL</application> 包括 curl 和其支持库。这个包用来通过<acronym>URL</acronym>传输文件，例如 <command>curl http://curl.haxx.se/download/curl-&curl-version;.tar.gz &gt;
+curl-&curl-version;.tar.gz</command>将会下载这个程序的 <acronym>TAR</acronym> 包到当前目录。下载和重定向功能可以被其他程序（例如流媒体）使用。</para>
+
+<sect3><title>软件包信息</title>
+<itemizedlist spacing='compact'>
+<listitem><para>下载 (HTTP): <ulink url="&curl-download-http;"/></para></listitem>
+<listitem><para>下载 (FTP): <ulink url="&curl-download-ftp;"/></para></listitem>
+<listitem><para>下载软件包大小: &curl-size;</para></listitem>
+<listitem><para>预计磁盘使用空间: &curl-buildsize;</para></listitem>
+<listitem><para>预计编译时间: &curl-time;</para></listitem></itemizedlist>
+</sect3>
+
+<sect3><title><application>cURL</application> 依赖关系</title>
+<sect4><title>可选</title>
+<para><xref linkend="openssl"/> 和 <xref linkend="openldap"/></para></sect4>
+</sect3>
+
+</sect2>

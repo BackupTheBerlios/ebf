@@ -1,0 +1,21 @@
+<sect2>
+<title>简单介绍<application>libsoup</application></title>
+
+<para><application>libsoup</application> 包括 <acronym>HTTP</acronym> 库的一个 <application>C</application> 语言实现。它对于以完全异步模式访问 <acronym>HTTP</acronym> 服务器很有用处。</para>
+
+<sect3><title>软件包信息</title>
+<itemizedlist spacing='compact'>
+<listitem><para>下载 (HTTP): <ulink url="&libsoup-download-http;"/></para></listitem>
+<listitem><para>下载 (FTP): <ulink url="&libsoup-download-ftp;"/></para></listitem>
+<listitem><para>下载软件包大小: &libsoup-size;</para></listitem>
+<listitem><para>预计磁盘使用空间: &libsoup-buildsize;</para></listitem>
+<listitem><para>预计编译时间: &libsoup-time;</para></listitem></itemizedlist>
+</sect3>
+
+<sect3><title><application>libsoup 依赖关系</application></title>
+<sect4><title>可选</title>
+<para><xref linkend="openssl"/></para></sect4>
+</sect3>
+
+
+</sect2>

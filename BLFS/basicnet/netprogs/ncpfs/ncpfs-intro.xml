@@ -1,0 +1,21 @@
+<sect2>
+<title>简单介绍<application><acronym>NCPFS</acronym></application></title>
+
+<para><application><acronym>NCPFS</acronym></application> 包括Novell网络所需的客户端和管理工具。</para>
+
+<sect3><title>软件包信息</title>
+<itemizedlist spacing='compact'>
+<listitem><para>下载 (HTTP): <ulink
+url="&ncpfs-download-http;"/></para></listitem>
+<listitem><para>下载 (FTP): <ulink
+url="&ncpfs-download-ftp;"/></para></listitem>
+<listitem><para>下载软件包大小: &ncpfs-size;</para></listitem>
+<listitem><para>预计磁盘使用空间:
+&ncpfs-buildsize;</para></listitem>
+<listitem><para>预计编译时间:
+&ncpfs-time;</para></listitem></itemizedlist>
+</sect3>
+
+
+
+</sect2>

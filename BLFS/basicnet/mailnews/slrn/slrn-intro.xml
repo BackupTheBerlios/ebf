@@ -1,0 +1,22 @@
+<sect2>
+<title>简单介绍<application>slrn</application></title>
+
+<para><application>slrn</application> 是一个基于slang库的新闻组阅读程序，可以阅读本地新闻缓冲区和<acronym>NNTP</acronym>服务器上新闻组的内容。简单的本地缓存区可以用slrnpull程序建立，它被包含在slrn的发行包里。</para>
+
+<sect3><title>软件包信息</title>
+<itemizedlist spacing='compact'>
+<listitem><para>下载 (HTTP): <ulink url="&slrn-download-http;"/></para></listitem>
+<listitem><para>下载 (FTP): <ulink url="&slrn-download-ftp;"/></para></listitem>
+<listitem><para>下载软件包大小: &slrn-size;</para></listitem>
+<listitem><para>预计磁盘使用空间: &slrn-buildsize;</para></listitem>
+<listitem><para>预计编译时间: &slrn-time;</para></listitem></itemizedlist>
+</sect3>
+
+<sect3><title><application>slrn</application> 依赖关系</title>
+<sect4><title>必备</title>
+<para><xref linkend="slang"/> 和 <acronym>MTA</acronym> (See <xref linkend="server-mail"/>)</para></sect4>
+</sect3>
+
+
+
+</sect2>

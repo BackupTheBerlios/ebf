@@ -1,0 +1,11 @@
+<sect2>
+<title>安装 <application>tcpwrappers</application></title>
+
+<para>安装<application>tcpwrappers</application> 可用如下命令:</para>
+
+<screen><userinput><command>patch -Np1 -i ../tcp_wrappers-7.6-shared-lib-plus-plus.patch &amp;&amp;
+make REAL_DAEMON_DIR=/usr/sbin STYLE=-DPROCESS_OPTIONS linux &amp;&amp;
+make install</command></userinput></screen>
+
+</sect2>
+

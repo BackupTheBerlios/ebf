@@ -1,0 +1,26 @@
+<sect2>
+<title>简单介绍<application>tcpwrappers</application></title>
+
+<para><application>tcpwrappers</application> 软件包提供后台包装程序，用于报告客户端请求网络服务器的名称，和对应的协议。</para> 
+
+<sect3><title>软件包信息</title>
+<itemizedlist spacing='compact'>
+<listitem><para>下载 (HTTP): <ulink
+url="&tcpwrappers-download-http;"/></para></listitem>
+<listitem><para>下载 (FTP): <ulink
+url="&tcpwrappers-download-ftp;"/></para></listitem>
+<listitem><para>下载软件包大小: &tcpwrappers-size;</para></listitem>
+<listitem><para>预计磁盘使用空间:
+&tcpwrappers-buildsize;</para></listitem>
+<listitem><para>预计编译时间:
+&tcpwrappers-time;</para></listitem></itemizedlist>
+</sect3>
+
+<sect3><title>额外下载</title>
+<itemizedlist spacing='compact'>
+<listitem><para>必备 patch (修正一些编译问题，并编译了一个共享库):
+<ulink url="&patch-root;/tcp_wrappers-7.6-shared-lib-plus-plus.patch"/></para></listitem>
+</itemizedlist>
+</sect3>
+
+</sect2>

@@ -1,0 +1,9 @@
+<sect2>
+<title>√¸¡ÓΩ‚ Õ</title>
+
+<para><command>patch -Np1 -i ../tcp_wrappers_7.6.diff</command>: This patch 
+alters the original path ∫Õ logging facility of the original tcpwrappers 
+program.</para>
+
+</sect2>
+

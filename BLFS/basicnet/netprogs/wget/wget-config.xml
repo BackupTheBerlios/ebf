@@ -1,0 +1,12 @@
+<sect2>
+<title>配置 <application>Wget</application></title>
+
+<sect3><title>配置文件</title>
+<para><filename>/etc/wgetrc</filename>, <filename>~/.wgetrc</filename></para>
+
+<para>无需改变。</para>
+</sect3>
+
+
+</sect2>
+

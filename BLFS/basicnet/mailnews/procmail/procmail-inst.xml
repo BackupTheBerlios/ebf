@@ -1,0 +1,10 @@
+<sect2>
+<title>安装 <application>Procmail</application></title>
+
+<para>安装<application>Procmail</application> 可以使用下面命令:</para>
+
+<screen><userinput><command>make BASENAME=/usr install &amp;&amp;
+make install-suid</command></userinput></screen>
+
+</sect2>
+

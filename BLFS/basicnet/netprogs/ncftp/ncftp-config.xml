@@ -1,0 +1,20 @@
+<sect2>
+<title>配置 <application>Nc<acronym>FTP</acronym></application></title>
+
+<sect3><title>配置文件</title>
+<para><filename>~/.ncftp/*</filename>; especially
+<filename>~/.ncftp/prefs_v3</filename></para>
+</sect3>
+
+<sect3><title>配置信息</title>
+
+<para><application>Nc<acronym>FTP</acronym></application>的大多数配置可以在程序中完成，程序会生成设置文件。一个例外是 <filename>~/.ncftp/prefs_v3</filename>.  需要在那里做一些设置:</para>
+
+<para><screen><userinput>yes-i-know-about-NcFTPd=yes</userinput></screen> 
+这将禁止显示<application>NcFTPd</application>服务器的splash广告。</para>
+
+<para>在<filename>prefs_v3</filename>中还有许多其他的选项，大多是不言自明的。</para>
+</sect3>
+
+</sect2>
+

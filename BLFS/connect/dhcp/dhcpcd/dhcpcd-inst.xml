@@ -1,0 +1,14 @@
+<sect2>
+<title>安装 <application>dhcpcd</application></title>
+
+<para>安装<application>dhcpcd</application> 可以使用下面的命令:</para>
+
+<screen><userinput><command>patch -Np1 -i ../dhcpcd-&dhcpcd-version;-fhs.patch &amp;&amp;
+./configure --prefix="" --sysconfdir=/var/lib \
+--mandir=/usr/share/man &amp;&amp;
+make &amp;&amp;
+make install</command></userinput></screen>
+
+
+</sect2>
+

@@ -1,0 +1,28 @@
+<sect2>
+<title>简单介绍<application>Apache</application></title>
+
+<para><application>Apache</application> 包括一个开放源码的 <acronym>HTTP</acronym> 服务器，对于创建内部网站和运行巨型的网络服务器都很有用处。</para>
+
+<sect3><title>软件包信息</title>
+<itemizedlist spacing='compact'>
+<listitem><para>下载 (HTTP): <ulink url="&apache-download-http;"/></para></listitem>
+<listitem><para>下载 (FTP): <ulink url="&apache-download-ftp;"/></para></listitem>
+<listitem><para>下载软件包大小: &apache-size;</para></listitem>
+<listitem><para>预计磁盘使用空间: &apache-buildsize;</para></listitem>
+<listitem><para>预计编译时间: &apache-time;</para></listitem></itemizedlist>
+</sect3>
+
+<sect3><title>额外下载</title>
+<itemizedlist spacing='compact'>
+<listitem><para>必备 Patch: <ulink
+url="&patch-root;/httpd-&apache-version;-config.patch"/></para></listitem>
+</itemizedlist></sect3>
+
+<sect3><title><application>Apache</application> 依赖关系</title>
+<sect4><title>可选</title>
+<para><xref linkend="db"/> 或 <xref linkend="gdbm"/>, <xref linkend="openssl"/>, <xref
+linkend="openldap"/> 和 <xref linkend="lynx"/>
+</para></sect4>
+</sect3>
+
+</sect2>

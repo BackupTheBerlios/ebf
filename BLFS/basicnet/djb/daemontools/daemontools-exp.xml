@@ -1,0 +1,53 @@
+<sect2>
+<title>命令解释</title>
+
+<para>安装Daniel J. Bernstein的软件包（除了 daemontools，还有<application>qmail</application>, <application>djbdns</application> 和 <application>ucspi-tcp</application>）时，首先要了解的事情是:如果他认为自己的观点是正确的，但标准和他的想法不同，他会完全漠视一切标准。在Bernstein的软件里，他把自己作为标准。</para>
+
+<para>因此，我们需要在安装的时候做一些小小的改变，使它适应<acronym>FHS</acronym>（Filesystem Hierarchy Standard）标准。许多命令由此而改变。</para>
+
+<para><command>cd admin/daemontools-0.76</command>: First off, the package is 
+unpacked in an <filename>admin</filename> directory. You will find the actual 
+packages two directory levels below this.</para>
+
+<para><command>package/compile</command>: This command actually 
+compiles the source 和 prepares the binaries.</para>
+
+<para>Since we are installing the binaries in <filename>/usr/sbin</filename> 
+rather than creating a non-standard <filename>/command</filename> directory, 
+several paths have to be changed:</para>
+<screen><command>sed 's|command|usr/sbin|' boot.inittab &gt; boot.inittab~
+mv boot.inittab~ boot.inittab</command></screen>
+<para>In <filename>boot.inittab</filename>,
+<filename>/command/svscanboot</filename> is changed to
+<filename>/usr/sbin/svscanboot</filename>.</para>
+
+<screen><command>sed -e 's|/command:/usr/local/bin:/usr/local/sbin:||' \
+    -e 's|command|usr/sbin|' \
+    -e 's|/service|/etc/service|g' svscanboot &gt; svscanboot~ &amp;&amp;</command></screen>
+<para>Here various paths are adjusted in the <command>svscanboot</command> 
+script. In our setup <command>svscan</command> will check the 
+<filename>/etc/service</filename> directory instead of
+the <filename>/service</filename> directory for daemons to run.</para>
+
+<para><command>cp * /usr/sbin</command>: We must manually copy the 
+binaries to the <filename>/usr/sbin</filename> directory.</para>
+
+<para><screen><command>cat /etc/inittab boot.inittab &gt; /etc/inittab~
+mv -f /etc/inittab~ /etc/inittab</command></screen>
+These commands append a line to <filename>/etc/inittab</filename> so that 
+<command>init</command> will launch the <command>svscanboot</command> script.
+</para>
+
+<para><command>mkdir /etc/service</command>: This command creates 
+the <application>daemontools</application> control directory, which - even if 
+empty - needs to exist for 
+<application>daemontools</application> to run properly.</para>
+
+<para><command>telinit Q</command>: This command tells the <command>init
+</command> process to re-read its configuration file 
+(<filename>inittab</filename>) 和 act upon any changes that have been made. 
+The <command>svscanboot</command> script is started.</para>
+
+
+</sect2>
+

@@ -1,0 +1,10 @@
+<chapter id="connect-other">
+<?dbhtml filename="other.html" dir="connect"?>
+<title>Other Connections</title>
+
+<para>连接到大型网络的方法还包括 <acronym>ISDN</acronym> 和 <acronym>PPPoE</acronym>等。这里讨论了<acronym>PPPoE</acronym>，关于 <acronym>ISDN</acronym> (或你所需要的其他方法)，欢迎提供安装指导，并将补充到本书的下一版本中。</para>
+
+<!--&connect-other-isdn;-->
+&pppoe;
+
+</chapter>

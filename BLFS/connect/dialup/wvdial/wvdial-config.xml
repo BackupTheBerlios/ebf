@@ -1,0 +1,22 @@
+<sect2>
+<title>配置 <application>WvDial</application></title>
+
+<sect3><title>配置文件</title>
+<para><filename>/etc/wvdial.conf</filename>, 
+<filename>/etc/ppp/peers/*</filename></para></sect3>
+
+<sect3><title>配置信息</title>
+
+<screen><userinput><command>touch /etc/wvdial.conf &amp;&amp;
+wvdialconf /etc/wvdial.conf</command></userinput></screen>
+<para><command>wvdialconf</command> 会测试你是否有一个可工作的 modem，并自动检测硬件的具体设置，然后会问一些关于你使用的 <acronym>ISP</acronym> 电话、用户名和密码等问题，并将这些信息写入 <filename>/etc/wvdial.conf</filename> 文件。</para>
+
+<para>接着运行 wvdial 拨号:</para>
+<screen><userinput><command>wvdial</command></userinput></screen>
+
+<para>更多信息参见 wvdialconf, wvdial.conf 和 wvdial 的 man 文档。</para>
+
+</sect3>
+
+</sect2>
+
